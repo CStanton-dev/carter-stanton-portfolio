@@ -1,6 +1,9 @@
 # carter-stanton-portfolio
 The portfolio repository for the website carterstanton.dev
 
+[![Job Detail and Status](https://github.com/CStanton-dev/carter-stanton-portfolio/actions/workflows/jobDetailAndStatus.yml/badge.svg)](https://github.com/CStanton-dev/carter-stanton-portfolio/actions/workflows/jobDetailAndStatus.yml)
+
+
 # Files
 
  - Home.html
