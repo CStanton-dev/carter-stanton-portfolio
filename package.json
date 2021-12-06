@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "carterstanton.dev",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
-  "version": "0.1.0",
+  "description": "The portfolio website for Carter Stanton",
+  "version": "0.1.1",
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
@@ -23,9 +23,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/cstanton-dev/carter-stanton-portfolio"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/cstanton-dev/carter-stanton-portfolio/issues"
   }
 }
