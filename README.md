@@ -41,32 +41,38 @@ carter-stanton-portfolio/
 │   └── workflows/
 │       └── jobDetailAndStatus.yml
 ├── src/
-│   ├── styles/                            # Import all ‘-dir.scss’ files
-│   │   ├── abstracts/
-│   │   |   ├── __abstracts-dir.scss       # Import all abstracts .scss files
-│   │   |   ├── _fonts.scss                # Font Import
-│   │   |   ├── _mixins.scss               # Scss Mixins
-│   │   |   └── _variables.scss            # Scss Variables
-│   │   ├── base/
-│   │   |   ├── __base-dir.scss            # Import all base .scss files
-│   │   |   ├── _typography.scss           # Typography Rules
-|   |   |   …                              # Etc.
-│   │   ├── components/
-│   │   |   ├── __components-dir.scss      # Import all componenets .scss files
-│   │   |   ├── _button.scss               # Button Styles
-│   │   |   ├── _input.scss                # Input Styles
-|   |   |   …                              # Etc.
-│   │   ├── layouts/
-│   │   |   ├── __layouts-dir.scss         # Import all layouts .scss files
-│   │   |   ├── _footer.scss               # Footer Styles
-│   │   |   ├── _main-navigation.scss      # Main Navigation Styles
-|   |   |   …                              # Etc.
-│   │   ├── vendor/
-│   │   |   └── __vendor-dir.scss          # Import Vendors
-│   │   └── style.scss
-│   └── pages/
-│       ├── index.js
-│       └── 404.js
+│   ├── fonts/
+│   │   ├── OpenSans-VariableFont_wdth,wght
+│   │   └── Rubik-Italic-VariableFont_wght
+│   ├── pages/
+│   │   ├── index.js
+│   │   └── 404.js
+│   └── styles/                                # Import all ‘-dir.scss’ files
+│       ├── abstracts/
+│       |   ├── __abstracts-dir.scss           # Import all abstracts .scss files
+│       |   ├── _fonts.scss                    # Font Import
+│       |   ├── _mixins.scss                   # Scss Mixins
+│       |   └── _variables.scss                # Scss Variables
+│       ├── base/
+│       |   ├── __base-dir.scss                # Import all base .scss files
+│       |   ├── _reset.scss                    # Custom Reset/Normalize
+│       |   ├── _typography.scss               # Typography Rules
+│       ├── components/
+│       |   ├── __components-dir.scss          # Import all componenets .scss files
+│       |   ├── _column.scss                   # Column Styles
+│       |   ├── _container.scss                # Container Styles
+│       |   ├── _row.scss                      # Row Styles
+│       |   ├── _scrollbar.scss                # Scrollbar Styles
+│       |   └── _sections.scss                 # Sections Styles
+│       ├── layouts/
+│       |   ├── __layouts-dir.scss             # Import all layouts .scss files
+│       |   ├── _introduction.scss             # Introduction Styles
+│       |   ├── _main-navigation.scss          # Main Navigation Styles
+│       |   └── _portfolio.scss                # Portfolio Styles
+│       ├── vendor/
+│       |   ├── __vendor-dir.scss              # Import Vendor folders
+│       |   └── normalize/                     # Normalize
+│       └── style.scss
 ├── static/
 │   ├── android-chrome-192x192.png
 │   ├── android-chrome-512x512.png
