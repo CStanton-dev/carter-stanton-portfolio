@@ -49,80 +49,64 @@ carter-stanton-portfolio/
 │   ├── components/
 │   │   ├── About/
 │   │   |   ├── About.tsx
-│   │   |   └── index.tsx
+│   │   |   └── index.ts
 │   │   ├── Col/
 │   │   |   ├── Col.module.scss
 │   │   |   ├── Col.tsx
-│   │   |   └── index.tsx
+│   │   |   └── index.ts
 │   │   ├── Contact/
 │   │   |   ├── alex-holyoake-113856.jpg
 │   │   |   ├── Contact.module.scss
 │   │   |   ├── Contact.tsx
-│   │   |   └── index.tsx
+│   │   |   └── index.ts
 │   │   ├── Container/
 │   │   |   ├── Container.module.scss
 │   │   |   ├── Container.tsx
-│   │   |   └── index.tsx
+│   │   |   └── index.ts
 │   │   ├── Footer/
 │   │   |   ├── Footer.module.scss
 │   │   |   ├── Footer.tsx
-│   │   |   └── index.tsx
+│   │   |   └── index.ts
 │   │   ├── FullScreenSection/
 │   │   |   ├── FullScreenSection.module.scss
 │   │   |   ├── FullScreenSection.tsx
-│   │   |   └── index.tsx
+│   │   |   └── index.ts
 │   │   ├── Intro/
 │   │   |   ├── Intro.module.scss
 │   │   |   ├── Intro.tsx
-│   │   |   ├── index.tsx
+│   │   |   ├── index.ts
 │   │   |   └── pexels-kevin-ku-577585.jpg
 │   │   ├── Masthead/
 │   │   |   ├── MastheadNavLink/
-|   │   │   |   ├── index.tsx
+|   │   │   |   ├── index.ts
 |   │   │   |   ├── MastheadNavLink.module.scss
 |   │   │   |   └── MastheadNavLink.tsx
-│   │   |   ├── index.tsx
+│   │   |   ├── index.ts
 │   │   |   ├── Masthead.module.scss
 │   │   |   └── Masthead.tsx
 │   │   ├── Portfolio/
 │   │   |   ├── centervilleBarbers.png
 │   │   |   ├── imperiumPopuli.png
-│   │   |   ├── index.tsx
+│   │   |   ├── index.ts
 │   │   |   ├── Portfolio.module.scss
 │   │   |   ├── Portfolio.tsx
 │   │   |   └── reactCode.png
 │   │   └── Row/
-│   │       ├── index.tsx
+│   │       ├── index.ts
 │   │       ├── Row.module.scss
 │   │       └── Row.tsx
 │   ├── layouts/
-│   │   └── index.tsx
+│   │   └── index.ts
 │   ├── pages/
 │   │   ├── 404.tsx
-│   │   └── index.tsx
-│   ├── styles/                                # Import all ‘-dir.scss’ files
-│   |   ├── abstracts/
-│   |   |   ├── __abstracts-dir.scss           # Import all abstracts .scss files
-│   |   |   ├── _fonts.scss                    # Font Import
-│   |   |   ├── _mixins.scss                   # Scss Mixins
-│   |   |   └── _variables.scss                # Scss Variables
-│   |   ├── base/
-│   |   |   ├── __base-dir.scss                # Import all base .scss files
-│   |   |   ├── _reset.scss                    # Custom Reset/Normalize
-│   |   |   ├── _typography.scss               # Typography Rules
-│   |   ├── components/
-│   |   |   ├── __components-dir.scss          # Import all componenets .scss files
-│   |   |   ├── _column.scss                   # Column Styles
-│   |   |   ├── _container.scss                # Container Styles
-│   |   |   ├── _row.scss                      # Row Styles
-│   |   |   ├── _scrollbar.scss                # Scrollbar Styles
-│   |   |   └── _sections.scss                 # Sections Styles
-│   |   ├── layouts/
-│   |   |   ├── __layouts-dir.scss             # Import all layouts .scss files
-│   |   |   ├── _introduction.scss             # Introduction Styles
-│   |   |   ├── _main-navigation.scss          # Main Navigation Styles
-│   |   |   └── _portfolio.scss                # Portfolio Styles
-│   |   └── style.scss
+│   │   └── index.ts
+│   ├── styles/
+│   |   ├── _base.scss
+│   |   ├── _code.scss
+│   |   ├── _mixins.scss
+│   |   ├── _typography.scss
+│   |   ├── _variables.scss
+│   |   └── globals.scss
 |   ├── html.tsx
 |   └── typings.d.ts
 ├── static/
