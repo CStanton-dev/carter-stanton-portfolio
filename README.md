@@ -1,3 +1,8 @@
+<p align="center">
+  <a href="https://carterstanton.dev">
+    <img alt="CSDEV" src="./static/portfolioLogo.png" width="60" />
+  </a>
+</p>
 <h1 align="center">
   <br />Carter Stanton Portfolio
 </h1>
@@ -16,7 +21,7 @@
 ## Table of Contents
 
 - [Release Notes](#-release-notes)
-- [Screenshots](#-screenshots)
+- [Installation](#-installation)
 - [File Structure](#-file-structure)
 - [Thanks to Our Contributors](#-thanks)
 
@@ -31,10 +36,41 @@
 - ### v1.0.0
   - This is the initial release of the repository. All future versions and changes will stem from this release.
 
-<h2>Screenshots</h2>
-<p>
-  <img src="https://picsum.photos/536/354" alt="Test Image"/>
-</p>
+<h2>Installation</h2>
+<p>A Node.js >= 6.0.0 setup with your choice of <a href="https://yarnpkg.com/" target="_blank" rel="noopener noreferrer">yarn</a> or npm is recommended.</p>
+<ol><li>Install node_modules folder
+
+```
+# install dependencies
+npm install
+# ...or if you'd like to use yarn instead
+yarn
+```
+
+</li>
+<li>Start the npm server, this will start a development build, which is not optimized for production.
+
+```
+# serve with hot reload at localhost:8000
+npm start
+```
+
+</li>
+<ul><li>When your code is ready for production, use this command.
+
+```
+npm run build
+```
+
+</li>
+<li>If you want to build for production and push to a GitHub Pages branch, use this command.
+
+```
+# build for production and push to gh-pages branch
+npm run deploy
+```
+
+</li></ul></ol>
 
 ## File Structure
 
