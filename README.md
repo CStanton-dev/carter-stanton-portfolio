@@ -56,7 +56,7 @@ npm start
 ```
 
 </li>
-<ul><li>When your code is ready for production, use this command.
+<li>When your code is ready for production, use this command.
 
 ```
 npm run build
@@ -70,7 +70,7 @@ npm run build
 npm run deploy
 ```
 
-</li></ul></ol>
+</li></ol>
 
 ## File Structure
 
