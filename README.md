@@ -73,85 +73,85 @@ npm run deploy
 ## File Structure
 
 ```
-carter-stanton-portfolio/
-├── .github/
-│   └── workflows/
-│       └── jobDetailAndStatus.yml
-├── .vscode/
-│   └── settings.json
-├── src/
-│   ├── components/
-│   │   ├── About/
-│   │   |   ├── About.tsx
-│   │   |   └── index.ts
-│   │   ├── Col/
-│   │   |   ├── Col.module.scss
-│   │   |   ├── Col.tsx
-│   │   |   └── index.ts
-│   │   ├── Contact/
-│   │   |   ├── alex-holyoake-113856.jpg
-│   │   |   ├── Contact.module.scss
-│   │   |   ├── Contact.tsx
-│   │   |   └── index.ts
-│   │   ├── Container/
-│   │   |   ├── Container.module.scss
-│   │   |   ├── Container.tsx
-│   │   |   └── index.ts
-│   │   ├── Footer/
-│   │   |   ├── Footer.module.scss
-│   │   |   ├── Footer.tsx
-│   │   |   └── index.ts
-│   │   ├── FullScreenSection/
-│   │   |   ├── FullScreenSection.module.scss
-│   │   |   ├── FullScreenSection.tsx
-│   │   |   └── index.ts
-│   │   ├── Intro/
-│   │   |   ├── Intro.module.scss
-│   │   |   ├── Intro.tsx
-│   │   |   ├── index.ts
-│   │   |   └── pexels-kevin-ku-577585.jpg
-│   │   ├── Masthead/
-│   │   |   ├── MastheadNavLink/
-|   │   │   |   ├── index.ts
-|   │   │   |   ├── MastheadNavLink.module.scss
-|   │   │   |   └── MastheadNavLink.tsx
-│   │   |   ├── index.ts
-│   │   |   ├── Masthead.module.scss
-│   │   |   └── Masthead.tsx
-│   │   ├── Portfolio/
-│   │   |   ├── centervilleBarbers.png
-│   │   |   ├── imperiumPopuli.png
-│   │   |   ├── index.ts
-│   │   |   ├── Portfolio.module.scss
-│   │   |   ├── Portfolio.tsx
-│   │   |   └── reactCode.png
-│   │   └── Row/
-│   │       ├── index.ts
-│   │       ├── Row.module.scss
-│   │       └── Row.tsx
-│   ├── layouts/
-│   │   └── index.ts
-│   ├── pages/
-│   │   ├── 404.tsx
-│   │   └── index.ts
-│   ├── styles/
-│   |   ├── _base.scss
-│   |   ├── _code.scss
-│   |   ├── _mixins.scss
-│   |   ├── _typography.scss
-│   |   ├── _variables.scss
-│   |   └── globals.scss
-|   ├── html.tsx
-|   └── typings.d.ts
-├── static/
-│   ├── android-chrome-192x192.png
-│   ├── android-chrome-512x512.png
-│   ├── apple-touch-icon.png
-│   ├── favicon-16x16.png
-│   ├── favicon-32x32.png
-│   ├── favicon.ico
-│   ├── image-og.png
-│   └── site.webmanifest
+├── carter-stanton-portfolio/
+│   ├── .github/
+│   │   └── workflows/
+│   │       └── jobDetailAndStatus.yml
+│   ├── .vscode/
+│   │   └── settings.json
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── About/
+│   │   │   │   ├── About.tsx
+│   │   │   │   └── index.ts
+│   │   │   ├── Col/
+│   │   │   │   ├── Col.module.scss
+│   │   │   │   ├── Col.tsx
+│   │   │   │   └── index.ts
+│   │   │   ├── Contact/
+│   │   │   │   ├── alex-holyoake-113856.jpg
+│   │   │   │   ├── Contact.module.scss
+│   │   │   │   ├── Contact.tsx
+│   │   │   │   └── index.ts
+│   │   │   ├── Container/
+│   │   │   │   ├── Container.module.scss
+│   │   │   │   ├── Container.tsx
+│   │   │   │   └── index.ts
+│   │   │   ├── Footer/
+│   │   │   │   ├── Footer.module.scss
+│   │   │   │   ├── Footer.tsx
+│   │   │   │   └── index.ts
+│   │   │   ├── FullScreenSection/
+│   │   │   │   ├── FullScreenSection.module.scss
+│   │   │   │   ├── FullScreenSection.tsx
+│   │   │   │   └── index.ts
+│   │   │   ├── Intro/
+│   │   │   │   ├── Intro.module.scss
+│   │   │   │   ├── Intro.tsx
+│   │   │   │   ├── index.ts
+│   │   │   │   └── pexels-kevin-ku-577585.jpg
+│   │   │   ├── Masthead/
+│   │   │   │   ├── MastheadNavLink/
+│   │   │   │   │   ├── index.ts
+│   │   │   │   │   ├── MastheadNavLink.module.scss
+│   │   │   │   │   └── MastheadNavLink.tsx
+│   │   │   │   ├── index.ts
+│   │   │   │   ├── Masthead.module.scss
+│   │   │   │   └── Masthead.tsx
+│   │   │   ├── Portfolio/
+│   │   │   │   ├── centervilleBarbers.png
+│   │   │   │   ├── imperiumPopuli.png
+│   │   │   │   ├── index.ts
+│   │   │   │   ├── Portfolio.module.scss
+│   │   │   │   ├── Portfolio.tsx
+│   │   │   │   └── reactCode.png
+│   │   │   └── Row/
+│   │   │       ├── index.ts
+│   │   │       ├── Row.module.scss
+│   │   │       └── Row.tsx
+│   │   ├── layouts/
+│   │   │   └── index.ts
+│   │   ├── pages/
+│   │   │   ├── 404.tsx
+│   │   │   └── index.ts
+│   │   ├── styles/
+│   │   │   ├── _base.scss
+│   │   │   ├── _code.scss
+│   │   │   ├── _mixins.scss
+│   │   │   ├── _typography.scss
+│   │   │   ├── _variables.scss
+│   │   │   └── globals.scss
+│   │   ├── html.tsx
+│   │   └── typings.d.ts
+│   └── static/
+│       ├── android-chrome-192x192.png
+│       ├── android-chrome-512x512.png
+│       ├── apple-touch-icon.png
+│       ├── favicon-16x16.png
+│       ├── favicon-32x32.png
+│       ├── favicon.ico
+│       ├── image-og.png
+│       └── site.webmanifest
 ├── .editorconfig
 ├── .eslintrc
 ├── .gitattributes
