@@ -1,10 +1,42 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
-
 module.exports = {
-  /* Your site config here */
-  plugins: [],
-}
+  siteMetadata: {
+    title: "Carter Stanton Dev",
+    description: "The portfolio website for Carter Stanton.",
+    author: {
+      name: "Carter Stanton",
+      url: "https://linkedin.com/carter-stanton-dev",
+      email: "contact@carterstanton.dev",
+    },
+    siteUrl: "https://carterstanton.dev",
+  },
+  plugins: [
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "pages",
+        path: `${__dirname}/src/pages`,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-canonical-urls",
+      options: {
+        siteUrl: "https://carterstanton.dev",
+      },
+    },
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        cssLoaderOptions: {
+          esModule: false,
+          modules: {
+            namedExport: false,
+          },
+        },
+      },
+    },
+    "gatsby-transformer-json",
+    "gatsby-plugin-typescript",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-postcss",
+  ],
+};
