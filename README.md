@@ -31,7 +31,10 @@
 - ### v1.0.0
   - This is the initial release of the repository. All future versions and changes will stem from this release.
 
-## Screenshots
+<h2>Screenshots</h2>
+<p>
+  <img src="https://picsum.photos/536/354" alt="Test Image"/>
+</p>
 
 ## File Structure
 
@@ -40,60 +43,113 @@ carter-stanton-portfolio/
 ├── .github/
 │   └── workflows/
 │       └── jobDetailAndStatus.yml
+├── .vscode/
+│   └── settings.json
 ├── src/
-│   ├── fonts/
-│   │   ├── OpenSans-VariableFont_wdth,wght
-│   │   └── Rubik-Italic-VariableFont_wght
+│   ├── components/
+│   │   ├── About/
+│   │   |   ├── About.tsx
+│   │   |   └── index.tsx
+│   │   ├── Col/
+│   │   |   ├── Col.module.scss
+│   │   |   ├── Col.tsx
+│   │   |   └── index.tsx
+│   │   ├── Contact/
+│   │   |   ├── alex-holyoake-113856.jpg
+│   │   |   ├── Contact.module.scss
+│   │   |   ├── Contact.tsx
+│   │   |   └── index.tsx
+│   │   ├── Container/
+│   │   |   ├── Container.module.scss
+│   │   |   ├── Container.tsx
+│   │   |   └── index.tsx
+│   │   ├── Footer/
+│   │   |   ├── Footer.module.scss
+│   │   |   ├── Footer.tsx
+│   │   |   └── index.tsx
+│   │   ├── FullScreenSection/
+│   │   |   ├── FullScreenSection.module.scss
+│   │   |   ├── FullScreenSection.tsx
+│   │   |   └── index.tsx
+│   │   ├── Intro/
+│   │   |   ├── Intro.module.scss
+│   │   |   ├── Intro.tsx
+│   │   |   ├── index.tsx
+│   │   |   └── pexels-kevin-ku-577585.jpg
+│   │   ├── Masthead/
+│   │   |   ├── MastheadNavLink/
+|   │   │   |   ├── index.tsx
+|   │   │   |   ├── MastheadNavLink.module.scss
+|   │   │   |   └── MastheadNavLink.tsx
+│   │   |   ├── index.tsx
+│   │   |   ├── Masthead.module.scss
+│   │   |   └── Masthead.tsx
+│   │   ├── Portfolio/
+│   │   |   ├── centervilleBarbers.png
+│   │   |   ├── imperiumPopuli.png
+│   │   |   ├── index.tsx
+│   │   |   ├── Portfolio.module.scss
+│   │   |   ├── Portfolio.tsx
+│   │   |   └── reactCode.png
+│   │   └── Row/
+│   │       ├── index.tsx
+│   │       ├── Row.module.scss
+│   │       └── Row.tsx
+│   ├── layouts/
+│   │   └── index.tsx
 │   ├── pages/
-│   │   ├── index.js
-│   │   └── 404.js
-│   └── styles/                                # Import all ‘-dir.scss’ files
-│       ├── abstracts/
-│       |   ├── __abstracts-dir.scss           # Import all abstracts .scss files
-│       |   ├── _fonts.scss                    # Font Import
-│       |   ├── _mixins.scss                   # Scss Mixins
-│       |   └── _variables.scss                # Scss Variables
-│       ├── base/
-│       |   ├── __base-dir.scss                # Import all base .scss files
-│       |   ├── _reset.scss                    # Custom Reset/Normalize
-│       |   ├── _typography.scss               # Typography Rules
-│       ├── components/
-│       |   ├── __components-dir.scss          # Import all componenets .scss files
-│       |   ├── _column.scss                   # Column Styles
-│       |   ├── _container.scss                # Container Styles
-│       |   ├── _row.scss                      # Row Styles
-│       |   ├── _scrollbar.scss                # Scrollbar Styles
-│       |   └── _sections.scss                 # Sections Styles
-│       ├── layouts/
-│       |   ├── __layouts-dir.scss             # Import all layouts .scss files
-│       |   ├── _introduction.scss             # Introduction Styles
-│       |   ├── _main-navigation.scss          # Main Navigation Styles
-│       |   └── _portfolio.scss                # Portfolio Styles
-│       ├── vendor/
-│       |   ├── __vendor-dir.scss              # Import Vendor folders
-│       |   └── normalize/                     # Normalize
-│       └── style.scss
+│   │   ├── 404.tsx
+│   │   └── index.tsx
+│   ├── styles/                                # Import all ‘-dir.scss’ files
+│   |   ├── abstracts/
+│   |   |   ├── __abstracts-dir.scss           # Import all abstracts .scss files
+│   |   |   ├── _fonts.scss                    # Font Import
+│   |   |   ├── _mixins.scss                   # Scss Mixins
+│   |   |   └── _variables.scss                # Scss Variables
+│   |   ├── base/
+│   |   |   ├── __base-dir.scss                # Import all base .scss files
+│   |   |   ├── _reset.scss                    # Custom Reset/Normalize
+│   |   |   ├── _typography.scss               # Typography Rules
+│   |   ├── components/
+│   |   |   ├── __components-dir.scss          # Import all componenets .scss files
+│   |   |   ├── _column.scss                   # Column Styles
+│   |   |   ├── _container.scss                # Container Styles
+│   |   |   ├── _row.scss                      # Row Styles
+│   |   |   ├── _scrollbar.scss                # Scrollbar Styles
+│   |   |   └── _sections.scss                 # Sections Styles
+│   |   ├── layouts/
+│   |   |   ├── __layouts-dir.scss             # Import all layouts .scss files
+│   |   |   ├── _introduction.scss             # Introduction Styles
+│   |   |   ├── _main-navigation.scss          # Main Navigation Styles
+│   |   |   └── _portfolio.scss                # Portfolio Styles
+│   |   └── style.scss
+|   ├── html.tsx
+|   └── typings.d.ts
 ├── static/
 │   ├── android-chrome-192x192.png
 │   ├── android-chrome-512x512.png
 │   ├── apple-touch-icon.png
-|   ├── centervilleBarbers.png
 │   ├── favicon-16x16.png
 │   ├── favicon-32x32.png
 │   ├── favicon.ico
 │   ├── image-og.png
-|   ├── imperiumPopuli.png
-|   ├── pexels-kevin-ku-577585.png
-|   ├── reactCode.png
 │   └── site.webmanifest
+├── .editorconfig
+├── .eslintrc
+├── .gitattributes
 ├── .gitignore
+├── .prettierrc
 ├── gatsby-config.js
+├── gatsby-node.js
 ├── LICENSE
+├── now.json
 ├── package-lock.json
 ├── package.json
-└── README.md
+├── README.md
+├── tsconfig.json
+└── yarn.lock
 ```
 
 ## Thanks
 
-This project was built with the help of <a href="https://www.gatsbyjs.com">Gatsby.js</a> and is used under the <a href="https://github.com/CStanton-dev/carter-stanton-portfolio/blob/main/LICENSE">MIT License</a>
+This project was built with the help of <a href="https://www.gatsbyjs.com">Gatsby.js</a> and is used under the <a href="https://github.com/CStanton-dev/carter-stanton-portfolio/blob/main/LICENSE">MIT License</a><br /><br />
