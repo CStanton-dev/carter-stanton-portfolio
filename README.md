@@ -1,11 +1,9 @@
-<p align="center">
-  <a href="https://carterstanton.dev">
-    <img alt="CSDEV" src="./static/portfolioLogo.png" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  <br />Carter Stanton Portfolio
-</h1>
+<a href="https://carterstanton.dev">
+  <img alt="CSDEV" src="./static/portfolioLogo.png" height="70" align="right" />
+</a>
+
+# Carter Stanton Portfolio
+
 <p align="center">
   <a href="https://github.com/CStanton-dev/carter-stanton-portfolio/actions/workflows/jobDetailAndStatus.yml">
     <img src="https://github.com/CStanton-dev/carter-stanton-portfolio/actions/workflows/jobDetailAndStatus.yml/badge.svg?style=flat" alt="Job Detail and Status">
@@ -20,10 +18,10 @@
 
 ## Table of Contents
 
-- [Release Notes](#-release-notes)
-- [Installation](#-installation)
-- [File Structure](#-file-structure)
-- [Thanks to Our Contributors](#-thanks)
+- [Release Notes](#release-notes)
+- [Installation](#installation)
+- [File Structure](#file-structure)
+- [Thanks to Our Contributors](#thanks)
 
 ## Release Notes
 
@@ -74,7 +72,7 @@ npm run deploy
 
 ## File Structure
 
-```shell
+```
 carter-stanton-portfolio/
 ├── .github/
 │   └── workflows/
