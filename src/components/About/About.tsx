@@ -28,7 +28,7 @@ export const About = () => (
           Vue.js
         </a>
         ,{' '}
-        <a href="https://typescript.org/" target="_blank" rel="noopener nonreferrer">
+        <a href="https://typescriptlang.org/" target="_blank" rel="noopener nonreferrer">
           TypeScript
         </a>
         )
