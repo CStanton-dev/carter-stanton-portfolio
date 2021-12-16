@@ -19,7 +19,7 @@ export const Contact: React.FC = () => (
                 I am always trying to better myself and reach for new heights. So I am always willing to work on something new, big or
                 small.
               </p>
-              <p>If you would like to reachout to me, feel free to use my handels below and I will get back to you as soon as possible.</p>
+              <p>If you would like to reachout to me, feel free to use my handles below and I will get back to you as soon as possible.</p>
               <ul>
                 <li>
                   <a href="https://www.linkedin.com/in/carter-stanton-dev/" target="_blank">
