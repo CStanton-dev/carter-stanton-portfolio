@@ -18,7 +18,13 @@ export const About = () => (
         Govenors University (WGU), and will graduate in <strong>February 2022</strong> with a degree in Information Technology BS. I&apos;m
         interested in full-time software development or data security management roles.
       </p>
-      <p>Proficient: ​ HTML/CSS, MySQL, Linux/Unix, Excel</p>
+      <p>
+        Proficient: ​ HTML/CSS,{' '}
+        <a href="https://sass-lang.com/" target="_blank" rel="noopener nonreferrer">
+          SASS
+        </a>
+        , MySQL, Linux/Unix, Excel
+      </p>
       <p>
         Knowledgeable: JavaScript (
         <a href="https://reactjs.org/" target="_blank" rel="noopener nonreferrer">
