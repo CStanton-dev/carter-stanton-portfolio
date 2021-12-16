@@ -17,7 +17,13 @@ export const About = () => (
         stakeholders. I am able to jump across verticals to deliver <strong>high-performing</strong> software solutions. I&apos;m graduating
         in <strong>February 2022</strong> and I&apos;m interested in full-time software development or data security management roles.
       </p>
-      <p>Proficient: ​ HTML/CSS, MySQL, Linux/Unix, Excel</p>
+      <p>
+        Proficient: ​ HTML/CSS,{' '}
+        <a href="https://sass-lang.com/" target="_blank" rel="noopener nonreferrer">
+          SASS
+        </a>
+        , MySQL, Linux/Unix, Excel
+      </p>
       <p>
         Knowledgeable: JavaScript (
         <a href="https://reactjs.org/" target="_blank" rel="noopener nonreferrer">
