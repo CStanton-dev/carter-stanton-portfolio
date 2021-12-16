@@ -167,7 +167,7 @@ npm run deploy
 ├── tsconfig.json
 └── yarn.lock
 ```
-
+ 
 ## Thanks
 
 This project was built with the help of <a href="https://www.gatsbyjs.com">Gatsby.js</a> and is used under the <a href="https://github.com/CStanton-dev/carter-stanton-portfolio/blob/main/LICENSE">MIT License</a><br /><br />
