@@ -27,6 +27,10 @@ export const About = () => (
         <a href="https://vuejs.org/" target="_blank" rel="noopener nonreferrer">
           Vue.js
         </a>
+        ,{' '}
+        <a href="https://typescript.org/" target="_blank" rel="noopener nonreferrer">
+          TypeScript
+        </a>
         )
       </p>
       <p>Familiar: ColdFusion</p>
