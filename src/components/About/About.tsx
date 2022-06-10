@@ -14,7 +14,7 @@ export const About = () => (
       </p>
       <p>
         My passion lies in solving business problems with tailored data and algorithms and communicating complex ideas to non-technical
-        stakeholders. I am able to jump across verticals to deliver <strong>high-performing</strong> software solutions.I graduated Western
+        stakeholders. I am able to jump across verticals to deliver <strong>high-performing</strong> software solutions. I graduated Western
         Govenors University (WGU) in <strong>May 2022</strong> with a degree in{' '}
         <strong>Information Technology BS</strong>. I&apos;m interested in full-time software development or data security management roles.
       </p>
