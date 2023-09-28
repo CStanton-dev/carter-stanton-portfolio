@@ -47,6 +47,25 @@
       right: 0.15rem;
     }
   }
+
+  &.ironGate {
+    font-size: 80%;
+    background-color: $ironGate;
+    color: $accent;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    a {
+      color: $yellow;
+    }
+
+    @media (min-width: $grid-breakpoint-md) {
+      position: absolute;
+      bottom: 2rem;
+      right: 0.15rem;
+    }
+  }
 }
 
 .featureImageBox {
